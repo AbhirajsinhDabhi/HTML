@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Signup Form" method="get">
+        <center><fieldset><legend align="center">SignUp</legend>
+            <table align="center" height="100" width="1200">
+                <tr>
+                    <td align="right">user</td>
+                    <td align="left"><input type="text" placeholder="Enter Name" maxlength="10"></td>
+                    <td align="right">Username</td>
+                    <td align="left"><input type="text" placeholder="Enter Name" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td>
+                        <select>
+                        <option value="" disabled hidden selected>--select--</option>
+                        <optgroup label="gujrat">
+                            <option>amreli</option>
+                            <option>amdavad</option>
+                            <option>arvalli</option>
+                        </optgroup>
+                        <optgroup label="rajsthan">
+                            <option>udaipur</option>
+                            <option>jaipur</option>
+                            <option>jesalmer</option>
+                        </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="range" min="20" max="70" step="1"
+                        value="" oninput="num.value = this.value"></td>
+                </tr>
+            </table>
+        </fieldset></center>
+    </form>
+</body>
+</html>

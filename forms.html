@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <form action="demo" method="get">
+        <fieldset>
+            <legend align="center">Signup</legend>
+        <label>Username</label>
+        <input type="text" placeholder="enter name" maxlength="10">
+        <br><br>
+        <label>Password</label>
+        <input type="password" maxlength="8">
+        <br><br>
+        <label>BirthDate</label>
+        <input type="date">
+        <br><br>
+        <label>EmailId</label>
+        <input type="email" placeholder="abc07@gmail.com">
+        <br><br>
+        <label>Gender</label>
+        <input type="radio" name="Gen" checked>Male
+        <input type="radio" name="Gen">Female
+        <br><br>
+        <label>Area of Intrest</label>
+        <input type="checkbox" checked>FSD
+        <input type="checkbox">DS
+        <input type="checkbox">DBMS
+        <br><br>
+        <label>Department</label>
+        <select>
+            <option value="" disabled hidden selected>--Select Branch--</option>
+              <optgroup label="ce">
+                <option>it</option>
+                <option>csit</option>
+                <option>cse</option>
+              </optgroup>
+              <optgroup label="mechanical">
+                <option>mech</option>
+                <option>automobiles</option>
+                <option>mechatromics</option>
+              </optgroup>
+        </select>
+        <br><br>
+        <label>Address</label>
+        <textarea rows="6" cols="20">Delete Manually</textarea>
+        <br><br>
+        <label>Upload CV</label>
+        <input type="file">
+        <br><br>
+        <input type="submit" value="click me">
+        <input type="reset" value="reset">
+        </fieldset>
+    </form>
+</body>
+</html>
